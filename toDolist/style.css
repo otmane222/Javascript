@@ -1,0 +1,62 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	font-family: Arial, sans-serif;
+	background-color: #f0f0f0;
+	display:flex;
+	justify-content: center;
+}
+
+header {
+	/* border: 1px solid #ccc; */
+	/* background-color: #89cfb4; */
+	width: 400px;
+	height: 400px;
+	padding: 100px 0;
+	text-align: center;
+}
+
+header .button {
+	background-color: #fff;
+	color: #89cfb4;
+	border: 1px solid #89cfb4;
+	padding: 5px 10px;
+	text-decoration: none;
+}
+
+#inputField {
+	width: 300px;
+	height: 46px;
+	border: 1px solid #ccc;
+	outline: none;
+	vertical-align: middle;
+	font-size: 25px;
+}
+
+#addToDo {
+	height: 50px;
+	width: 50px;
+	border:1px solid #ccc;
+	vertical-align: middle;
+	font-size: 30px;
+}
+
+.to-doo {
+	margin-top: 25px;
+}
+
+.paragraph-styling {
+	margin: 0;
+	cursor: pointer;
+	font-size: 20px;
+}
+
+p {
+	width: 80%; /* Set the width of the container */
+	margin: 0 auto; /* Horizontally center the container */
+	padding: 20px; /* Set padding inside the container */
+	border: 5% solid lightgray; /* 5% border around the container */
+	box-sizing: border-box; /* Include padding and border in the width calculation */
+	cursor: pointer;
+	font-size: 25px;
+}
