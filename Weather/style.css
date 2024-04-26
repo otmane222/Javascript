@@ -1,0 +1,98 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-size: 'Poppins', sans-serif;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #222;
+}
+
+.card {
+	width: 90%;
+	max-width: 470px;
+	background-image: linear-gradient(to top, rgba(136, 0, 255, 0.663), rgb(74, 182, 255));
+	border-radius: 20px;
+	box-shadow: 0 0 15px rgba(95, 72, 240, 0.5);
+	margin: 100px auto 0;
+	text-align: center;
+	padding: 40px 35px;
+
+}
+.card .search {
+	display: flex;
+	background: #ebfffc;
+	border-radius: 30px;
+	margin-bottom: 35px;
+	
+}
+.card .search input {
+	border: 0;
+	outline: 0;
+	background: #ebfffc;
+	height: 60px;
+	border-radius: 30px;
+	outline: none;
+	padding: 30px 25px;
+	margin-right: 16px;
+	font-size: 18px;
+	flex:1;
+}
+
+.card .search button {
+	border: 0;
+	outline: 0;
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	background: #ebfffc;
+	cursor: pointer;
+}
+.card .search button img {
+	width: 16px;
+	height: auto;
+}
+
+.card .temp {
+	font-size: 65px;
+	font-weight: 700;
+	color: #fff;
+	margin-bottom: 20px;
+	font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.card .city {
+	font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	font-size: 45px;
+	font-weight: 700;
+	color: #fff;
+	margin-bottom: 40px;
+}
+.card .details {
+	display: flex;
+	justify-content: space-between;
+	padding: 0 40px;
+	font-size: 20px;
+	color: #fff;
+	font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.card .details .col {
+	display: flex;
+	justify-content: space-between;
+}
+.card .details .col div p {
+	font-size: 13px;
+}
+.card .details .col div .wind {
+	font-size: 25px;
+}
+.card .details .col div .humidity {
+	font-size: 25px;
+}
+
+.card .details .col img {
+	width: 30px;
+	height: 30px;
+	margin-right: 10px;
+}
