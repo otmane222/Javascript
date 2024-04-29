@@ -1,0 +1,47 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Poppins', sans-serif;
+	box-sizing: border-box;
+}
+
+.hero {
+	width: 100%;
+	min-height: 100vh;
+	background: linear-gradient(to right, rgb(38, 3, 68), rgb(1, 63, 105));
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.calender {
+	width: 350px;
+	height: 270px;
+	display: flex;
+	background: #fff;
+	box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+	border-radius: 15px;
+}
+.calender div {
+	flex-grow: 1;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	font-size: 34px;
+}
+
+.left {
+	flex-basis: 43%;
+
+}
+.right {
+	border-radius: 0 15px 15px 0;
+	background-color: rgb(254, 98, 71);
+	color: #fff;
+}
+
+.date {
+	font-size: 100px;
+
+}
